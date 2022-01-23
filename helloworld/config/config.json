@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "wello-world-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/welloWorldWebpart/WelloWorldWebpartWebPart.js",
+          "manifest": "./src/webparts/welloWorldWebpart/WelloWorldWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WelloWorldWebpartWebPartStrings": "lib/webparts/welloWorldWebpart/loc/{locale}.js"
+  }
+}

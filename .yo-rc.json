@@ -1,0 +1,14 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "solutionName": "helloworld",
+    "environment": "spo",
+    "skipFeatureDeployment": "false",
+    "isDomainIsolated": true,
+    "componentType": "webpart",
+    "framework": "none",
+    "componentName": "wello-world-webpart",
+    "componentDescription": "HelloWorld web part",
+    "isCreatingSolution": true,
+    "whichFolder": "subdir"
+  }
+}
